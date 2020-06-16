@@ -1,0 +1,31 @@
+.box {
+  width: 100%;
+  max-width: 23%;
+  background: #ececec;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 2px;
+  .title {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 26px;
+    padding: 9px 0;
+    color: #5a0403;
+  }
+  .icon {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+  }
+  .caption {
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: justify;
+  }
+}
+
+.listType1 {
+  display: flex;
+  align-items: end;
+  
+}

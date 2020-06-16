@@ -1,0 +1,21 @@
+.menu {
+  background: #e4dbd6;
+  .inner {
+    justify-content: space-between;
+    align-items: center;
+    .right {
+      position: relative;
+      padding-right: 120px;
+    }
+    .left {
+    }
+    .social {
+      .socialItem {
+        margin: 0 5px;
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

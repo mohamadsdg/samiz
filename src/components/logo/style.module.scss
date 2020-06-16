@@ -1,0 +1,27 @@
+.logo {
+  position: absolute;
+  top: -90px;
+  right: 0;
+  .logoImage {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: #e4dbd6;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: rotate(45deg);
+    }
+    img {
+      width: 70px;
+      display: block;
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+    }
+  }
+}

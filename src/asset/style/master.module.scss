@@ -1,0 +1,122 @@
+// @import-normalize; /* bring in normalize.css styles */
+
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/IRAN_Sans.eot");
+  src: url("../fonts/IRAN_Sans.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IRAN_Sans.woff2") format("woff2"),
+    url("../fonts/IRAN_Sans.woff") format("woff"),
+    url("../fonts/IRAN_Sans.ttf") format("truetype"),
+    url("../fonts/IRAN_Sans.svg#IRAN_Sans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  direction: rtl;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  font-family: "iranSans";
+  box-sizing: border-box;
+  &:after,
+  &:before {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  position: relative;
+  background: #fff !important;
+  line-height: unset !important;
+}
+
+svg {
+  font-size: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+  direction: rtl;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyContentBetween {
+  justify-content: space-between;
+}
+
+// Responsive
+@media (max-width: 576px) {
+  .container {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container {
+    width: 540px !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .container {
+    width: 720px !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .container {
+    width: 960px !important;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px !important;
+  }
+}
